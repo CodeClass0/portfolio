@@ -11,7 +11,6 @@
     --ridgecolor: rgb(255, 0, 0);
   }
 
-
 header{
     display:flex;
     width: auto;
@@ -26,11 +25,57 @@ header{
     margin-right:40px;
     border-bottom: 3px ridge rgb(255, 0, 0);
 }
+
+h1{
+    font-size:40px;
+    color:var(--text);
+    background-color: var(--primary);
+    padding:10px;
+    margin-right:0px;
+}
+
+h2{
+    background-color: var(--primary);
+    font-size:35px;
+    text-align: right;
+    padding-right: 0;
+}
+
+header ul{
+    display:flex;
+    background-color: var(--primary);
+    list-style-type: none;
+    position:relative;
+    float:right;
+    overflow:hidden;
+    top:65px;
+    
+}
+
+header a{
+    color:var(--text);
+    background-color: var(--primary);
+    text-decoration: none;
+    margin-left:95px;
+    flex-direction:row;
+
+}
+
+header li{
+    color:var(--text);
+    font-size: 20px;
+    font-weight:bold;
+    background-color: var(--primary);
+
+
+}
+
 .personal{
     height:130px;
     width: 130px;
     border-radius:50%;
 }
+
 .headshot{
     position:relative;
     margin:15px;
@@ -52,15 +97,11 @@ header{
     justify-content: right;
 }
 
-h1{
-    font-size:40px;
-    color:var(--text);
-    background-color: var(--primary);
-    padding:10px;
-    margin-right:0px;
-}
 
-.rows{
+/* Classes */
+
+/* .rows sets the styling for the horizontal containers for each section */
+.rows{  
     display:flex;
     width: auto;
     height:auto;
@@ -73,6 +114,7 @@ h1{
     margin-right:40px;
 }
 
+/* .leftpane sets the styling for the text and boxes to the left in the main body */
 .leftpane{
     padding:10px;
     margin-right:10px;
@@ -88,13 +130,7 @@ h1{
     min-width:142px;
 }
 
-h2{
-    background-color: var(--primary);
-    font-size:35px;
-    text-align: right;
-    padding-right: 0;
-}
-
+/* .rows UL, .rows li, .rows p all set styles for their respective elements */
 .rows ul{
     display:flex;
     position:relative;
@@ -115,6 +151,39 @@ h2{
 
 }
 
+.rows p{
+    font-size: 25px;
+    width:90%;
+    height: auto;
+    color:var(--text);
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding:10px; 
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-align: left;
+
+
+}
+
+
+/* cards is the styling for where the work proejcts will go */
+.cards{
+    margin-top:0;
+    padding:30px;
+    padding-top:0;
+    display:flex;
+    height:auto;
+    width:846px;
+    min-width:600px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+
+/* ID's */
+/* linkbox, links a, links as well all apply to the contact links at the bottom. */
 #linkbox{
     position:relative;
     font-size: 20px;
@@ -150,34 +219,7 @@ h2{
     background-color: var(--primary);
 }
 
-header ul{
-    display:flex;
-    background-color: var(--primary);
-    list-style-type: none;
-    position:relative;
-    float:right;
-    overflow:hidden;
-    top:65px;
-    
-}
-
-header a{
-    color:var(--text);
-    background-color: var(--primary);
-    text-decoration: none;
-    margin-left:95px;
-    flex-direction:row;
-
-}
-
-header li{
-    color:var(--text);
-    font-size: 20px;
-    font-weight:bold;
-    background-color: var(--primary);
-
-
-}
+/* hnav styles the nav bar in the header */
 #hnav {
     position:relative;
     font-size: 20px;
@@ -193,6 +235,7 @@ header li{
     margin-bottom:0px;
 }
 
+/* style images to be backgrounds */
 #horiseon-img{
     background-position:center;
     background-size:cover;
@@ -215,6 +258,8 @@ header li{
     height:251px;
     width: 350px;
 }
+
+/* hover changes the border color to let the user know there are clickable links */
 #horiseon:hover{
     border-color:green;
 }
@@ -225,6 +270,7 @@ header li{
     border-color:green;
 }
 
+/* sets styling for each project card */
 #projects {
     position:relative;
     font-size: 20px;
@@ -236,35 +282,6 @@ header li{
     padding:10px; 
     margin-top: 0px;
     margin-bottom:0px;
-}
-
-
-
-.rows p{
-    font-size: 25px;
-    width:90%;
-    height: auto;
-    color:var(--text);
-    background-color: var(--secondary);
-    border-radius: 5px;
-    padding:10px; 
-    margin-top: 0px;
-    margin-bottom:0px;
-    text-align: left;
-
-
-}
-
-.cards{
-    margin-top:0;
-    padding:30px;
-    padding-top:0;
-    display:flex;
-    height:auto;
-    width:846px;
-    min-width:600px;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
 }
 
 #horiseon{
@@ -293,7 +310,6 @@ header li{
     color:white;
 }
 
-
 #card2 p{
     position: relative;
     display: inline-block;
@@ -313,7 +329,6 @@ header li{
     bottom: 98px;
     background-color:red;
     color:white;
-
 }
 
 #placeholder1{
