@@ -1,6 +1,236 @@
 *{
-    background-color:antiquewhite;
-    margin:0px;
-    padding:0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
 }
+
+:root {
+    --primary: rgba(255, 255, 255, 0.792);
+    --secondary: #ffffff;
+    --text: rgb(0, 0, 0);
+    --bordercolor: rgb(255, 255, 255);
+    --ridgecolor: rgb(255, 0, 0);
+  }
+
+
+header{
+    display:flex;
+    width: auto;
+    height:auto;
+    padding: 10px;
+    border: 5px solid var(--bordercolor);
+    border-radius: 15px;
+    margin: 5px 20px;
+    min-width:750px;
+    background-color: var(--primary);
+    margin-left: 90px;
+    margin-right:40px;
+    border-bottom: 3px ridge rgb(255, 0, 0);
+}
+.personal{
+    height:130px;
+    width: 130px;
+    border-radius:50%;
+}
+.headshot{
+    position:relative;
+    margin:15px;
+
+    justify-content:center;
+    height:130px;
+    width:130px;
+    background-color: var(--primary);
+
+}
+
+.hcontain{
+    width:142px;
+    background-color: var(--primary);
+    margin-left:22px;
+    position:relative;
+    text-align: right;
+    display:flex;
+    justify-content: right;
+}
+
+h1{
+    font-size:40px;
+    color:var(--text);
+    background-color: var(--primary);
+    padding:10px;
+    margin-right:0px;
+}
+
+
+header ul{
+    display:flex;
+    background-color: var(--primary);
+    list-style-type: none;
+    position:relative;
+    float:right;
+    overflow:hidden;
+    top:65px;
+    
+}
+
+header a{
+    color:var(--text);
+    background-color: var(--primary);
+    text-decoration: none;
+    margin-left:95px;
+    flex-direction:row;
+
+}
+
+header li{
+    color:var(--text);
+    font-size: 20px;
+    font-weight:bold;
+    background-color: var(--primary);
+
+
+}
+#hnav {
+    position:relative;
+    font-size: 20px;
+    width:2000px;
+    float:right;
+    right:0px;
+    overflow:hidden;
+    color:var(--text);
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding:10px; 
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+/* #horiseon-img{
+    background-position:center;
+    background-size:cover;
+    object-fit:cover;
+    height:400px;
+    width: 764px;
+}
+
+#placeholder1-img{
+    background-position:center;
+    background-size:cover;
+    object-fit:cover;
+    height:251px;
+    width: 350px;
+}
+#placeholder2-img{
+    background-position:center;
+    background-size:cover;
+    object-fit:cover;
+    height:251px;
+    width: 350px;
+}
+#horiseon:hover{
+    border-color:green;
+}
+#placeholder1:hover{
+    border-color:green;
+}
+#placeholder2:hover{
+    border-color:green;
+}
+
+#projects {
+    position:relative;
+    font-size: 20px;
+    width:90%;
+    height: auto;
+    color:var(--text);
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding:10px; 
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+
+
+.rows p{
+    font-size: 25px;
+    width:90%;
+    height: auto;
+    color:var(--text);
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding:10px; 
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-align: left;
+
+
+}
+
+.cards{
+    margin-top:0;
+    padding:30px;
+    padding-top:0;
+    display:flex;
+    height:auto;
+    width:846px;
+    min-width:600px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+#horiseon{
+    background-color: orange;
+    height:400px;
+    width: 764px;
+    margin:10px;
+    border:10px solid red;
+}
+
+#placeholder2{
+    background-color: orange;
+    height:251px;
+    width: 350px;
+    margin:10px;
+    border:10px solid red;
+}
+
+#card1 p{
+    position: relative;
+    display: inline-block;
+    width:270px;
+    right:-12px;
+    bottom: 98px;
+    background-color:red;
+    color:white;
+}
+
+
+#card2 p{
+    position: relative;
+    display: inline-block;
+    width:270px;
+    right:-12px;
+    bottom: 98px;
+    background-color:red;
+    color:white;
+
+}
+
+#card3 p{
+    position: relative;
+    display: inline-block;
+    width:270px;
+    right:-12px;
+    bottom: 98px;
+    background-color:red;
+    color:white;
+
+}
+
+#placeholder1{
+    background-color: blue;
+    height:251px;
+    width: 350px;
+    margin:10px;
+    border:10px solid red;
+} */
