@@ -4,7 +4,7 @@
 }
 
 :root {
-    --primary: rgba(255, 255, 255, 0.792);
+    --primary: rgb(255, 255, 255);
     --secondary: #ffffff;
     --text: rgb(0, 0, 0);
     --bordercolor: rgb(255, 255, 255);
